@@ -1,0 +1,18 @@
+
+def single( ar, n):
+
+     
+
+     xor = ar[0]
+
+    
+    for i in range(1,n):
+
+        xor = xor ^ ar[i]
+
+    return xor
+ 
+
+ar = [2, 3, 5, 4, 5, 3, 4]
+
+print "Element occurring once is", single(ar, len(ar)) 
